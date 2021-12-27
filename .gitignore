@@ -1,0 +1,14 @@
+/audiodrive-mobile/node_modules/
+/audiodrive-mobile/.expo/
+/audiodrive-mobile/dist/
+/audiodrive-mobile/npm-debug.*
+/audiodrive-mobile/*.jks
+/audiodrive-mobile/*.p8
+/audiodrive-mobile/*.p12
+/audiodrive-mobile/*.key
+/audiodrive-mobile/*.mobileprovision
+/audiodrive-mobile/*.orig.*
+/audiodrive-mobile/web-build/
+
+# macOS
+/audiodrive-mobile/.DS_Store
