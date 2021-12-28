@@ -1,0 +1,17 @@
+{
+    "name": "audiodrive-api",
+    "version": "0.0.1",
+    "description": "An API used for the AudioDrive Platform",
+    "main": "index.js",
+    "repository": "https://github.com/khalid-talakshi/audiodrive",
+    "author": "Khalid Talakshi",
+    "license": "MIT",
+    "private": false,
+    "dependencies": {
+        "express": "^4.17.2"
+    },
+    "scripts": {
+        "start": "node --es-module-specifier-resolution=node index.js"
+    },
+    "type": "module"
+}

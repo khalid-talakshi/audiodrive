@@ -1,4 +1,4 @@
-/audiodrive-mobile/node_modules/
+/audiodrive-*/node_modules/
 /audiodrive-mobile/.expo/
 /audiodrive-mobile/dist/
 /audiodrive-mobile/npm-debug.*
