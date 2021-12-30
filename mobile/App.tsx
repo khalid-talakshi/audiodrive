@@ -1,8 +1,9 @@
 import { NavigationContainer, DarkTheme } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import {registerRootComponent} from 'expo'
 import { Home } from "./pages";
 
-export default function App() {
+function App() {
   const Stack = createNativeStackNavigator();
 
   return (
@@ -13,3 +14,5 @@ export default function App() {
     </NavigationContainer>
   );
 }
+
+export default registerRootComponent(App)
