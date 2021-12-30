@@ -3,9 +3,10 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { registerRootComponent } from "expo";
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 import { Home } from "./pages";
+import React from "react";
 
 const client = new ApolloClient({
-  uri: "localhost:4000/graphql",
+  uri: "http://04ab-100-36-41-50.ngrok.io/graphql",
   cache: new InMemoryCache(),
 });
 
